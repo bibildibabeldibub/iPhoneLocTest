@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D8DEF8328D44B9D004CF891 /* new.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8D8DEF8128D44B9D004CF891 /* new.gpx */; };
+		8D8DEF8428D44B9D004CF891 /* test.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8D8DEF8228D44B9D004CF891 /* test.gpx */; };
+		8D8DEF8828D4558A004CF891 /* KurparkNeu.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8D8DEF8728D4558A004CF891 /* KurparkNeu.gpx */; };
+		8D8DEF8A28D456A0004CF891 /* Kurpark.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8D8DEF8928D456A0004CF891 /* Kurpark.xml */; };
 		8DDB099E28CF228100813C80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB099D28CF228100813C80 /* AppDelegate.swift */; };
 		8DDB09A028CF228100813C80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB099F28CF228100813C80 /* SceneDelegate.swift */; };
 		8DDB09A228CF228100813C80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB09A128CF228100813C80 /* ContentView.swift */; };
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D8DEF8128D44B9D004CF891 /* new.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = new.gpx; sourceTree = "<group>"; };
+		8D8DEF8228D44B9D004CF891 /* test.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.gpx; sourceTree = "<group>"; };
+		8D8DEF8728D4558A004CF891 /* KurparkNeu.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KurparkNeu.gpx; sourceTree = "<group>"; };
+		8D8DEF8928D456A0004CF891 /* Kurpark.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Kurpark.xml; sourceTree = "<group>"; };
 		8DDB099A28CF228100813C80 /* NicosTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NicosTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDB099D28CF228100813C80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DDB099F28CF228100813C80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +87,10 @@
 		8DDB099C28CF228100813C80 /* NicosTest */ = {
 			isa = PBXGroup;
 			children = (
+				8D8DEF8728D4558A004CF891 /* KurparkNeu.gpx */,
+				8D8DEF8928D456A0004CF891 /* Kurpark.xml */,
+				8D8DEF8128D44B9D004CF891 /* new.gpx */,
+				8D8DEF8228D44B9D004CF891 /* test.gpx */,
 				8DDB099D28CF228100813C80 /* AppDelegate.swift */,
 				8DDB099F28CF228100813C80 /* SceneDelegate.swift */,
 				8DDB09A128CF228100813C80 /* ContentView.swift */,
@@ -165,7 +177,7 @@
 				};
 			};
 			buildConfigurationList = 8DDB099528CF228100813C80 /* Build configuration list for PBXProject "NicosTest" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -189,8 +201,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DDB09AA28CF228500813C80 /* LaunchScreen.storyboard in Resources */,
+				8D8DEF8A28D456A0004CF891 /* Kurpark.xml in Resources */,
+				8D8DEF8428D44B9D004CF891 /* test.gpx in Resources */,
 				8DDB09A728CF228500813C80 /* Preview Assets.xcassets in Resources */,
+				8D8DEF8328D44B9D004CF891 /* new.gpx in Resources */,
 				8DDB09A428CF228500813C80 /* Assets.xcassets in Resources */,
+				8D8DEF8828D4558A004CF891 /* KurparkNeu.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -362,8 +378,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NicosTest/Preview Content\"";
+				DEVELOPMENT_TEAM = UGS49B36CG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NicosTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -372,6 +390,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = NSC.NicosTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,8 +400,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NicosTest/Preview Content\"";
+				DEVELOPMENT_TEAM = UGS49B36CG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NicosTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -391,6 +412,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = NSC.NicosTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
