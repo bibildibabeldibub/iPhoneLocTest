@@ -18,6 +18,8 @@
 		8DDB09A728CF228500813C80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDB09A628CF228500813C80 /* Preview Assets.xcassets */; };
 		8DDB09AA28CF228500813C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DDB09A828CF228500813C80 /* LaunchScreen.storyboard */; };
 		8DDB09B528CF228600813C80 /* NicosTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB09B428CF228600813C80 /* NicosTestUITests.swift */; };
+		8DF0498F28D47363000BF098 /* CustPoint_MaerchenPark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8DF0498E28D47363000BF098 /* CustPoint_MaerchenPark.gpx */; };
+		8DF0499028D47363000BF098 /* CustPoint_MaerchenPark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8DF0498E28D47363000BF098 /* CustPoint_MaerchenPark.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,7 @@
 		8DDB09B028CF228600813C80 /* NicosTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicosTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDB09B428CF228600813C80 /* NicosTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicosTestUITests.swift; sourceTree = "<group>"; };
 		8DDB09B628CF228600813C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF0498E28D47363000BF098 /* CustPoint_MaerchenPark.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = CustPoint_MaerchenPark.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 				8DDB09A828CF228500813C80 /* LaunchScreen.storyboard */,
 				8DDB09AB28CF228500813C80 /* Info.plist */,
 				8DDB09A528CF228500813C80 /* Preview Content */,
+				8DF0498E28D47363000BF098 /* CustPoint_MaerchenPark.gpx */,
 			);
 			path = NicosTest;
 			sourceTree = "<group>";
@@ -205,6 +209,7 @@
 				8D8DEF8428D44B9D004CF891 /* test.gpx in Resources */,
 				8DDB09A728CF228500813C80 /* Preview Assets.xcassets in Resources */,
 				8D8DEF8328D44B9D004CF891 /* new.gpx in Resources */,
+				8DF0498F28D47363000BF098 /* CustPoint_MaerchenPark.gpx in Resources */,
 				8DDB09A428CF228500813C80 /* Assets.xcassets in Resources */,
 				8D8DEF8828D4558A004CF891 /* KurparkNeu.gpx in Resources */,
 			);
@@ -214,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF0499028D47363000BF098 /* CustPoint_MaerchenPark.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
