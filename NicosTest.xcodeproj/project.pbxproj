@@ -20,6 +20,14 @@
 		8DDB09B528CF228600813C80 /* NicosTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB09B428CF228600813C80 /* NicosTestUITests.swift */; };
 		8DF0498F28D47363000BF098 /* CustPoint_MaerchenPark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8DF0498E28D47363000BF098 /* CustPoint_MaerchenPark.gpx */; };
 		8DF0499028D47363000BF098 /* CustPoint_MaerchenPark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8DF0498E28D47363000BF098 /* CustPoint_MaerchenPark.gpx */; };
+		D62E633849BFF3F3D9E27FA8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D62E6FC3C8E49D594B8896EE /* README.md */; };
+		D62E63C681C70998126D718C /* Arzt_Funke_Dingel.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E67250431FAE7C87522CB /* Arzt_Funke_Dingel.gpx */; };
+		D62E6632C89DDCB009B63C1E /* CustPoint_Kurpark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E68A7710FA5AD5DF8CCDF /* CustPoint_Kurpark.gpx */; };
+		D62E6A0A60CC87CFB2B99D50 /* Dingel1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E67C616CF81B202D5CCAD /* Dingel1.gpx */; };
+		D62E6B0B546816A6B7559340 /* Arzt_Funke_Dingel.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E67250431FAE7C87522CB /* Arzt_Funke_Dingel.gpx */; };
+		D62E6C14C48C8709176F7031 /* Anger_Dingel.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E6B31FB31C666BF42F2B1 /* Anger_Dingel.gpx */; };
+		D62E6CA932DEA1E0F0BD364F /* Anger_Dingel.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E6B31FB31C666BF42F2B1 /* Anger_Dingel.gpx */; };
+		D62E6E5DC5E703EF253B1267 /* CustPoint_Kurpark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E68A7710FA5AD5DF8CCDF /* CustPoint_Kurpark.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,11 @@
 		8DDB09B428CF228600813C80 /* NicosTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicosTestUITests.swift; sourceTree = "<group>"; };
 		8DDB09B628CF228600813C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DF0498E28D47363000BF098 /* CustPoint_MaerchenPark.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = CustPoint_MaerchenPark.gpx; sourceTree = "<group>"; };
+		D62E67250431FAE7C87522CB /* Arzt_Funke_Dingel.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = Arzt_Funke_Dingel.gpx; sourceTree = "<group>"; };
+		D62E67C616CF81B202D5CCAD /* Dingel1.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = Dingel1.gpx; sourceTree = "<group>"; };
+		D62E68A7710FA5AD5DF8CCDF /* CustPoint_Kurpark.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = CustPoint_Kurpark.gpx; sourceTree = "<group>"; };
+		D62E6B31FB31C666BF42F2B1 /* Anger_Dingel.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = Anger_Dingel.gpx; sourceTree = "<group>"; };
+		D62E6FC3C8E49D594B8896EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +88,7 @@
 				8DDB099C28CF228100813C80 /* NicosTest */,
 				8DDB09B328CF228600813C80 /* NicosTestUITests */,
 				8DDB099B28CF228100813C80 /* Products */,
+				D62E6FC3C8E49D594B8896EE /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +116,10 @@
 				8DDB09AB28CF228500813C80 /* Info.plist */,
 				8DDB09A528CF228500813C80 /* Preview Content */,
 				8DF0498E28D47363000BF098 /* CustPoint_MaerchenPark.gpx */,
+				D62E68A7710FA5AD5DF8CCDF /* CustPoint_Kurpark.gpx */,
+				D62E67C616CF81B202D5CCAD /* Dingel1.gpx */,
+				D62E6B31FB31C666BF42F2B1 /* Anger_Dingel.gpx */,
+				D62E67250431FAE7C87522CB /* Arzt_Funke_Dingel.gpx */,
 			);
 			path = NicosTest;
 			sourceTree = "<group>";
@@ -212,6 +230,10 @@
 				8DF0498F28D47363000BF098 /* CustPoint_MaerchenPark.gpx in Resources */,
 				8DDB09A428CF228500813C80 /* Assets.xcassets in Resources */,
 				8D8DEF8828D4558A004CF891 /* KurparkNeu.gpx in Resources */,
+				D62E6632C89DDCB009B63C1E /* CustPoint_Kurpark.gpx in Resources */,
+				D62E6A0A60CC87CFB2B99D50 /* Dingel1.gpx in Resources */,
+				D62E6CA932DEA1E0F0BD364F /* Anger_Dingel.gpx in Resources */,
+				D62E63C681C70998126D718C /* Arzt_Funke_Dingel.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF0499028D47363000BF098 /* CustPoint_MaerchenPark.gpx in Resources */,
+				D62E6E5DC5E703EF253B1267 /* CustPoint_Kurpark.gpx in Resources */,
+				D62E6C14C48C8709176F7031 /* Anger_Dingel.gpx in Resources */,
+				D62E6B0B546816A6B7559340 /* Arzt_Funke_Dingel.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +258,7 @@
 				8DDB099E28CF228100813C80 /* AppDelegate.swift in Sources */,
 				8DDB09A028CF228100813C80 /* SceneDelegate.swift in Sources */,
 				8DDB09A228CF228100813C80 /* ContentView.swift in Sources */,
+				D62E633849BFF3F3D9E27FA8 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
