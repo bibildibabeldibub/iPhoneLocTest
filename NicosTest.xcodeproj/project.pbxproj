@@ -27,6 +27,7 @@
 		D62E6B0B546816A6B7559340 /* Arzt_Funke_Dingel.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E67250431FAE7C87522CB /* Arzt_Funke_Dingel.gpx */; };
 		D62E6C14C48C8709176F7031 /* Anger_Dingel.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E6B31FB31C666BF42F2B1 /* Anger_Dingel.gpx */; };
 		D62E6CA932DEA1E0F0BD364F /* Anger_Dingel.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E6B31FB31C666BF42F2B1 /* Anger_Dingel.gpx */; };
+		D62E6E1C7BF050C2A078DBAE /* KurPark_klein_5h30m.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E6E8046EF3037A67EC3BA /* KurPark_klein_5h30m.gpx */; };
 		D62E6E5DC5E703EF253B1267 /* CustPoint_Kurpark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E68A7710FA5AD5DF8CCDF /* CustPoint_Kurpark.gpx */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		D62E67C616CF81B202D5CCAD /* Dingel1.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = Dingel1.gpx; sourceTree = "<group>"; };
 		D62E68A7710FA5AD5DF8CCDF /* CustPoint_Kurpark.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = CustPoint_Kurpark.gpx; sourceTree = "<group>"; };
 		D62E6B31FB31C666BF42F2B1 /* Anger_Dingel.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = Anger_Dingel.gpx; sourceTree = "<group>"; };
+		D62E6E8046EF3037A67EC3BA /* KurPark_klein_5h30m.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = KurPark_klein_5h30m.gpx; sourceTree = "<group>"; };
 		D62E6FC3C8E49D594B8896EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 				D62E67C616CF81B202D5CCAD /* Dingel1.gpx */,
 				D62E6B31FB31C666BF42F2B1 /* Anger_Dingel.gpx */,
 				D62E67250431FAE7C87522CB /* Arzt_Funke_Dingel.gpx */,
+				D62E6E8046EF3037A67EC3BA /* KurPark_klein_5h30m.gpx */,
 			);
 			path = NicosTest;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				D62E6A0A60CC87CFB2B99D50 /* Dingel1.gpx in Resources */,
 				D62E6CA932DEA1E0F0BD364F /* Anger_Dingel.gpx in Resources */,
 				D62E63C681C70998126D718C /* Arzt_Funke_Dingel.gpx in Resources */,
+				D62E6E1C7BF050C2A078DBAE /* KurPark_klein_5h30m.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
