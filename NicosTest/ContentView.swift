@@ -7,10 +7,22 @@
 //
 
 import SwiftUI
+import CoreLocation
+
+
 
 struct ContentView: View {
+//    func test(){
+//        let locM = CLLocationManager();
+//        locM.desiredAccuracy = kCLLocationAccuracyBest
+//        locM.startUpdatingLocation()
+//    }
+    
     var body: some View {
-        Text("Hello, World!")
+        //Text("Hello, World!")
+        Button(action:{
+            print("test")
+        }) {Text("Button")}
     }
 }
 

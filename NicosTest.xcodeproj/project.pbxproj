@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0072102A57DE59007289B2 /* Berlin.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8D00720F2A57DE59007289B2 /* Berlin.gpx */; };
+		8D02B565291E24FD00F1C14D /* S1->Kurpark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8D02B564291E24FD00F1C14D /* S1->Kurpark.gpx */; };
+		8D02B567291E265600F1C14D /* Kurpark->S1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8D02B566291E265600F1C14D /* Kurpark->S1.gpx */; };
+		8D76560C2906BFB30046B036 /* DingelZentrumTest.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8D76560B2906BFB30046B036 /* DingelZentrumTest.gpx */; };
 		8D8DEF8328D44B9D004CF891 /* new.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8D8DEF8128D44B9D004CF891 /* new.gpx */; };
 		8D8DEF8428D44B9D004CF891 /* test.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8D8DEF8228D44B9D004CF891 /* test.gpx */; };
 		8D8DEF8828D4558A004CF891 /* KurparkNeu.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8D8DEF8728D4558A004CF891 /* KurparkNeu.gpx */; };
@@ -18,17 +22,19 @@
 		8DDB09A728CF228500813C80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDB09A628CF228500813C80 /* Preview Assets.xcassets */; };
 		8DDB09AA28CF228500813C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DDB09A828CF228500813C80 /* LaunchScreen.storyboard */; };
 		8DDB09B528CF228600813C80 /* NicosTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB09B428CF228600813C80 /* NicosTestUITests.swift */; };
-		8DF0498F28D47363000BF098 /* CustPoint_MaerchenPark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8DF0498E28D47363000BF098 /* CustPoint_MaerchenPark.gpx */; };
-		8DF0499028D47363000BF098 /* CustPoint_MaerchenPark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8DF0498E28D47363000BF098 /* CustPoint_MaerchenPark.gpx */; };
+		8DF0498F28D47363000BF098 /* CustPoint_DingelSonnenUhr.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8DF0498E28D47363000BF098 /* CustPoint_DingelSonnenUhr.gpx */; };
+		8DF0499028D47363000BF098 /* CustPoint_DingelSonnenUhr.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8DF0498E28D47363000BF098 /* CustPoint_DingelSonnenUhr.gpx */; };
+		D62E6236CE934B0EAD5BBA1B /* HigGroß_4h.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E6A2635E2301860983D22 /* HigGroß_4h.gpx */; };
+		D62E6293AE0AB3BBD49D7E28 /* Hig_DailyIncense.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E6E36C2D4A52B5558B5A0 /* Hig_DailyIncense.gpx */; };
 		D62E633849BFF3F3D9E27FA8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D62E6FC3C8E49D594B8896EE /* README.md */; };
 		D62E63C681C70998126D718C /* Arzt_Funke_Dingel.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E67250431FAE7C87522CB /* Arzt_Funke_Dingel.gpx */; };
-		D62E6632C89DDCB009B63C1E /* CustPoint_Kurpark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E68A7710FA5AD5DF8CCDF /* CustPoint_Kurpark.gpx */; };
 		D62E6A0A60CC87CFB2B99D50 /* Dingel1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E67C616CF81B202D5CCAD /* Dingel1.gpx */; };
+		D62E6A5B8EF2B3031BE163BF /* Hamburg.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E61D542E03FC55C2BC750 /* Hamburg.gpx */; };
 		D62E6B0B546816A6B7559340 /* Arzt_Funke_Dingel.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E67250431FAE7C87522CB /* Arzt_Funke_Dingel.gpx */; };
+		D62E6B28C1E29F5815C2A155 /* Dingel_DailyIncense.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E6965D75961A4730FBF2F /* Dingel_DailyIncense.gpx */; };
 		D62E6C14C48C8709176F7031 /* Anger_Dingel.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E6B31FB31C666BF42F2B1 /* Anger_Dingel.gpx */; };
 		D62E6CA932DEA1E0F0BD364F /* Anger_Dingel.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E6B31FB31C666BF42F2B1 /* Anger_Dingel.gpx */; };
 		D62E6E1C7BF050C2A078DBAE /* KurPark_klein_5h30m.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E6E8046EF3037A67EC3BA /* KurPark_klein_5h30m.gpx */; };
-		D62E6E5DC5E703EF253B1267 /* CustPoint_Kurpark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D62E68A7710FA5AD5DF8CCDF /* CustPoint_Kurpark.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D00720F2A57DE59007289B2 /* Berlin.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Berlin.gpx; sourceTree = "<group>"; };
+		8D02B564291E24FD00F1C14D /* S1->Kurpark.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "S1->Kurpark.gpx"; sourceTree = "<group>"; };
+		8D02B566291E265600F1C14D /* Kurpark->S1.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Kurpark->S1.gpx"; sourceTree = "<group>"; };
+		8D76560B2906BFB30046B036 /* DingelZentrumTest.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DingelZentrumTest.gpx; sourceTree = "<group>"; };
 		8D8DEF8128D44B9D004CF891 /* new.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = new.gpx; sourceTree = "<group>"; };
 		8D8DEF8228D44B9D004CF891 /* test.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.gpx; sourceTree = "<group>"; };
 		8D8DEF8728D4558A004CF891 /* KurparkNeu.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KurparkNeu.gpx; sourceTree = "<group>"; };
@@ -57,11 +67,15 @@
 		8DDB09B028CF228600813C80 /* NicosTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicosTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDB09B428CF228600813C80 /* NicosTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicosTestUITests.swift; sourceTree = "<group>"; };
 		8DDB09B628CF228600813C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DF0498E28D47363000BF098 /* CustPoint_MaerchenPark.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = CustPoint_MaerchenPark.gpx; sourceTree = "<group>"; };
+		8DF0498E28D47363000BF098 /* CustPoint_DingelSonnenUhr.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CustPoint_DingelSonnenUhr.gpx; sourceTree = "<group>"; };
+		8DF9AEE129212B0B00D229F4 /* CustPoint.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CustPoint.gpx; sourceTree = "<group>"; };
+		D62E61D542E03FC55C2BC750 /* Hamburg.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Hamburg.gpx; sourceTree = "<group>"; };
 		D62E67250431FAE7C87522CB /* Arzt_Funke_Dingel.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = Arzt_Funke_Dingel.gpx; sourceTree = "<group>"; };
 		D62E67C616CF81B202D5CCAD /* Dingel1.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = Dingel1.gpx; sourceTree = "<group>"; };
-		D62E68A7710FA5AD5DF8CCDF /* CustPoint_Kurpark.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = CustPoint_Kurpark.gpx; sourceTree = "<group>"; };
+		D62E6965D75961A4730FBF2F /* Dingel_DailyIncense.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = Dingel_DailyIncense.gpx; sourceTree = "<group>"; };
+		D62E6A2635E2301860983D22 /* HigGroß_4h.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = "HigGroß_4h.gpx"; sourceTree = "<group>"; };
 		D62E6B31FB31C666BF42F2B1 /* Anger_Dingel.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = Anger_Dingel.gpx; sourceTree = "<group>"; };
+		D62E6E36C2D4A52B5558B5A0 /* Hig_DailyIncense.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = Hig_DailyIncense.gpx; sourceTree = "<group>"; };
 		D62E6E8046EF3037A67EC3BA /* KurPark_klein_5h30m.gpx */ = {isa = PBXFileReference; lastKnownFileType = file.gpx; path = KurPark_klein_5h30m.gpx; sourceTree = "<group>"; };
 		D62E6FC3C8E49D594B8896EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,12 +131,20 @@
 				8DDB09A828CF228500813C80 /* LaunchScreen.storyboard */,
 				8DDB09AB28CF228500813C80 /* Info.plist */,
 				8DDB09A528CF228500813C80 /* Preview Content */,
-				8DF0498E28D47363000BF098 /* CustPoint_MaerchenPark.gpx */,
-				D62E68A7710FA5AD5DF8CCDF /* CustPoint_Kurpark.gpx */,
+				8DF0498E28D47363000BF098 /* CustPoint_DingelSonnenUhr.gpx */,
 				D62E67C616CF81B202D5CCAD /* Dingel1.gpx */,
 				D62E6B31FB31C666BF42F2B1 /* Anger_Dingel.gpx */,
 				D62E67250431FAE7C87522CB /* Arzt_Funke_Dingel.gpx */,
+				8D00720F2A57DE59007289B2 /* Berlin.gpx */,
 				D62E6E8046EF3037A67EC3BA /* KurPark_klein_5h30m.gpx */,
+				D62E61D542E03FC55C2BC750 /* Hamburg.gpx */,
+				D62E6A2635E2301860983D22 /* HigGroß_4h.gpx */,
+				D62E6965D75961A4730FBF2F /* Dingel_DailyIncense.gpx */,
+				D62E6E36C2D4A52B5558B5A0 /* Hig_DailyIncense.gpx */,
+				8D76560B2906BFB30046B036 /* DingelZentrumTest.gpx */,
+				8D02B564291E24FD00F1C14D /* S1->Kurpark.gpx */,
+				8D02B566291E265600F1C14D /* Kurpark->S1.gpx */,
+				8DF9AEE129212B0B00D229F4 /* CustPoint.gpx */,
 			);
 			path = NicosTest;
 			sourceTree = "<group>";
@@ -228,16 +250,23 @@
 				8DDB09AA28CF228500813C80 /* LaunchScreen.storyboard in Resources */,
 				8D8DEF8A28D456A0004CF891 /* Kurpark.xml in Resources */,
 				8D8DEF8428D44B9D004CF891 /* test.gpx in Resources */,
+				8D02B567291E265600F1C14D /* Kurpark->S1.gpx in Resources */,
+				8D0072102A57DE59007289B2 /* Berlin.gpx in Resources */,
 				8DDB09A728CF228500813C80 /* Preview Assets.xcassets in Resources */,
+				8D02B565291E24FD00F1C14D /* S1->Kurpark.gpx in Resources */,
 				8D8DEF8328D44B9D004CF891 /* new.gpx in Resources */,
-				8DF0498F28D47363000BF098 /* CustPoint_MaerchenPark.gpx in Resources */,
+				8DF0498F28D47363000BF098 /* CustPoint_DingelSonnenUhr.gpx in Resources */,
 				8DDB09A428CF228500813C80 /* Assets.xcassets in Resources */,
 				8D8DEF8828D4558A004CF891 /* KurparkNeu.gpx in Resources */,
-				D62E6632C89DDCB009B63C1E /* CustPoint_Kurpark.gpx in Resources */,
+				8D76560C2906BFB30046B036 /* DingelZentrumTest.gpx in Resources */,
 				D62E6A0A60CC87CFB2B99D50 /* Dingel1.gpx in Resources */,
 				D62E6CA932DEA1E0F0BD364F /* Anger_Dingel.gpx in Resources */,
 				D62E63C681C70998126D718C /* Arzt_Funke_Dingel.gpx in Resources */,
 				D62E6E1C7BF050C2A078DBAE /* KurPark_klein_5h30m.gpx in Resources */,
+				D62E6A5B8EF2B3031BE163BF /* Hamburg.gpx in Resources */,
+				D62E6236CE934B0EAD5BBA1B /* HigGroß_4h.gpx in Resources */,
+				D62E6B28C1E29F5815C2A155 /* Dingel_DailyIncense.gpx in Resources */,
+				D62E6293AE0AB3BBD49D7E28 /* Hig_DailyIncense.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,8 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF0499028D47363000BF098 /* CustPoint_MaerchenPark.gpx in Resources */,
-				D62E6E5DC5E703EF253B1267 /* CustPoint_Kurpark.gpx in Resources */,
+				8DF0499028D47363000BF098 /* CustPoint_DingelSonnenUhr.gpx in Resources */,
 				D62E6C14C48C8709176F7031 /* Anger_Dingel.gpx in Resources */,
 				D62E6B0B546816A6B7559340 /* Arzt_Funke_Dingel.gpx in Resources */,
 			);
